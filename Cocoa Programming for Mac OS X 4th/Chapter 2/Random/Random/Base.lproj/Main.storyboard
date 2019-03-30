@@ -686,32 +686,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Zg-z7-nrt">
-                                <rect key="frame" x="14" y="222" width="452" height="32"/>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H51-oX-rWQ">
+                                <rect key="frame" x="20" y="231" width="257" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="Seed random number generator using time" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="8nX-Ns-QKL">
+                                <buttonCell key="cell" type="roundRect" title="Seed random number generator using time" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="l68-ka-xCP">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="seed:" target="Gb8-9b-97e" id="eAF-PA-tGr"/>
+                                    <action selector="seed:" target="8Wj-3L-18O" id="uoH-5R-8sJ"/>
                                 </connections>
                             </button>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yNr-J9-is4">
-                                <rect key="frame" x="14" y="189" width="452" height="32"/>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e41-zr-yAN">
+                                <rect key="frame" x="20" y="199" width="257" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="Generate random number" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Pld-gX-PBh">
+                                <buttonCell key="cell" type="roundRect" title="Generate random number" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ene-h0-yuX">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="generate:" target="Gb8-9b-97e" id="s4n-1u-2au"/>
+                                    <action selector="generate:" target="8Wj-3L-18O" id="jg7-kc-ARv"/>
                                 </connections>
                             </button>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6yf-aE-LT2">
-                                <rect key="frame" x="18" y="156" width="444" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cNd-hK-cS3">
+                                <rect key="frame" x="20" y="164" width="259" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Label" id="kX4-93-Ivq">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="OLu-Hj-azL">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -721,9 +721,9 @@
                     </view>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-                <customObject id="Gb8-9b-97e" customClass="RandomController">
+                <customObject id="8Wj-3L-18O" customClass="RandomController">
                     <connections>
-                        <outlet property="textField" destination="6yf-aE-LT2" id="xeC-Fo-I5N"/>
+                        <outlet property="textField" destination="cNd-hK-cS3" id="9rB-cS-Knd"/>
                     </connections>
                 </customObject>
             </objects>
